@@ -1,0 +1,18 @@
+.page { padding:2rem; font-family:sans-serif }
+.controls input { width:60px; margin-right:0.5rem }
+.controls button { margin-left:0.5rem }
+.mat { position:relative; transition:transform .6s }
+.mat table { border-collapse:collapse }
+.mat td { border:1px solid #333; width:28px; height:28px; text-align:center }
+.label { position:absolute; top:-1.2rem; left:0; font-weight:bold }
+.grid2 { display:flex; gap:2rem; margin-top:1rem }
+.grid4 { display:grid; grid-template-columns:repeat(2,auto); gap:1rem; margin-top:1rem }
+.m7   { display:grid; grid-template-columns:repeat(3,auto); gap:1rem; margin-top:1rem }
+/* simple colors for tags */
+.M1 .label, .mat.M1 .label { color:#d32f2f }
+.M2 .label { color:#1976d2 }
+.M3 .label { color:#388e3c }
+.M4 .label { color:#f57c00 }
+.M5 .label { color:#7b1fa2 }
+.M6 .label { color:#00796b }
+.M7 .label { color:#c2185b }
